@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvoriya | Admin Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span style="color: var(--accent-primary);">ALVORIYA</span>
+            </a>
+            <button class="mobile-toggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="organization.html" class="nav-link">Organization</a>
+                <a href="product.html" class="nav-link">Product</a>
+                <a href="product.html#testimoni" class="nav-link">Testimoni</a>
+                <a href="checkout.html" class="nav-link">Checkout</a>
+                <a href="join.html" class="nav-link btn-nav join-btn">Join</a>
+                <a href="login.html" class="nav-link btn-nav login-btn" style="color: var(--accent-primary); border-color: var(--accent-primary);">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="auth-section">
+        <div class="auth-card">
+            <div class="auth-header">
+                <h2>Admin Login</h2>
+                <p>Restricted access portal for Alvoriya executives.</p>
+            </div>
+            <form id="login-form">
+                <div class="auth-form-group">
+                    <label>Email Address</label>
+                    <input type="email" name="email" class="auth-input" placeholder="admin@gmail.com" required>
+                </div>
+                <div class="auth-form-group" style="margin-bottom: 2rem;">
+                    <label>Password</label>
+                    <input type="password" name="password" class="auth-input" placeholder="••••••••" required>
+                </div>
+                
+                <button type="submit" class="btn btn-primary auth-btn">Secure Log In</button>
+                <div style="text-align: center; margin-top: 1.5rem; color: var(--text-secondary); font-size: 0.85rem; opacity: 0.7;">
+                    Any unauthorized access attempts will be strictly monitored.
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h2>ALVORIYA</h2>
+                    <p>Building the future through shared knowledge and experience. A community of passionate learners driven by curiosity and collaboration.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="organization.html">Organization</a></li>
+                        <li><a href="product.html">Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><span>📍</span> 123 Innovation Drive, Tech City, TX 75001</p>
+                    <p><span>📧</span> hello@alvoriya.edu</p>
+                    <p><span>📱</span> +1 (555) 000-0000</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Alvoriya. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
